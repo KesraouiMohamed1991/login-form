@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+ :root{
+    --primary-font-size: 20px;
+    --secondary-font-size:14px;
+    --primary-color:#959595e2;
+    --secondary-color:#fffbfb;   
+} 
+
+
+
+
+section{
+    background: url(/yes.jpg);
+    background-position:center;
+    background-repeat:repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    justify-content: center;
+}
+
+.container{
+
+    width: 300px;
+    height: 500px;
+    border: 1px solid rgba(144, 130, 130, 0.208);
+    border-radius: 19px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.151);  
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+
+  input  {
+    font-size: 15px;
+    justify-content: center;
+    letter-spacing: 0.5px;
+    color: var(--primary-color);
+    outline: none;
+    border-radius: 20px;
+    width: 260px;
+    height: 40px;
+    border: 2px solid rgba(134, 127, 127, 0.818);
+    background-color: #faf1f1e0;
+    text-transform:capitalize;
+
+  }
+
+  ::placeholder{
+    color: #959595e2;
+    font-size: 1em;
+    text-transform:capitalize;
+    padding-left: 29px;
+    padding-top: 10px;
+}
+  input .submit{
+    font-size: 20px;
+    text-transform:capitalize;
+    padding-left: -5px;
+  }
+
+  .lien{    
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-around;
+  }
+  span{
+font-size: var(--secondary-font-size);
+    border: 2px solid rgba(134, 127, 127, 0.818);
+    margin-left: 14px;
+    padding-left: 29px;
+    padding-top: 5px;
+    width: 120px;
+    height: 35px;
+    border-radius: 20px;
+    justify-content: center;
+    background-color: #eee;
+    color: var(--primary-color);
+    text-transform:capitalize;
+  }
+
+p ,h3{
+    text-transform:capitalize;
+    font-size: var(--primary-font-size);
+    color: var(--secondary-color);
+}
